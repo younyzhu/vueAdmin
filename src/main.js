@@ -4,8 +4,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Element from 'element-ui';
 import 'normalize.css/normalize.css';
-
-
+import 'font-awesome/css/font-awesome.css';
 import 'element-ui/lib/theme-default/index.css';
 import Widgets from './pages/widgets';
 import About from './pages/Hello';
@@ -13,8 +12,6 @@ import Form from './pages/form';
 import Charts from './pages/charts';
 import Navagation from './pages/navigation';
 import App from './App';
-
-require('font-awesome/css/font-awesome.css');
 
 
 const routes = [
